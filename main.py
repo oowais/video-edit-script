@@ -108,17 +108,12 @@ def main(video_folder, clips_dict, final_output_file):
 
 
 if __name__ == "__main__":
-    video_folder = r"C:\Adobe\spike rush.exe #2"
-    final_output_file = os.path.join(r"C:\Adobe", "final_output.mp4")
+    video_folder = r"C:\Videos"
+    final_output_file = os.path.join(r"C:\Videos", "final_output.mp4")
     clips_dict = {
-        "poggers clutch.mp4": ("00:01:10", "00:02:00"),
-        "4.mp4": ("00:00:45", "00:02:00"),
-        "5.mp4": ("00:00:22", "00:02:00"),
-        "6.mp4": ("00:00:24", "00:01:17"),
-        "8.mp4": ("00:00:00", "00:01:50"),
-        "9.mp4": ("00:00:15", "00:01:59"),
-        "10.mp4": ("00:01:00", "00:01:57"),
-        # "ace4.mp4": ("00:00:15", "00:01:57"),
+        # "1.mp4": ("00:00:15", "00:01:57"),
+        # "2.mp4": ("00:00:15", "00:01:57"),
+        # "3.mp4": ("00:00:15", "00:01:57"),
     }
 
     total_duration = calculate_total_duration(clips_dict)
